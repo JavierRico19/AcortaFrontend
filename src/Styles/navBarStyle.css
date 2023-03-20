@@ -1,0 +1,45 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+}
+
+.login-btn{
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid grey;
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.login-btn:active{
+    transform: translateY(2px);
+}
+
+.login-btn:hover{
+    background-color: #000000;
+    color: white
+}
+
+.signup-btn{
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid grey;
+    height: 30px;
+    width: 80px;
+}
+
+.auth-buttons{
+    margin-right: 70px;
+}
+
+.signup-btn:hover{
+    background-color: #000000;
+    color: white
+}
+.signup-btn:active{
+    transform: translateY(2px);
+}

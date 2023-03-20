@@ -1,0 +1,28 @@
+/* .central-container{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(245, 240, 225);
+    padding-bottom: 80px;
+    padding-left: 50px;
+}  */
+
+.central-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 40px;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(245, 240, 225);
+} 
+
+.medium-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
